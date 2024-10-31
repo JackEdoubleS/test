@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <org.webrtc.SurfaceViewRenderer
+        android:id="@+id/cameraLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <kr.co.edoubles.carlostdetect.CustomBoxView
+        android:id="@+id/customBoxView"
+        android:layout_width="@dimen/fill_width"
+        android:layout_height="@dimen/fill_height"
+        app:layout_constraintBottom_toBottomOf="@id/cameraLayout"
+        app:layout_constraintEnd_toEndOf="@id/cameraLayout"
+        app:layout_constraintStart_toStartOf="@id/cameraLayout"
+        app:layout_constraintTop_toTopOf="@id/cameraLayout" />
+
+
+    <com.google.android.material.materialswitch.MaterialSwitch
+        android:id="@+id/switchLostItemDetection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/layout_default_margin"
+        android:checked="false"
+        android:text="@string/lost_fun_switch_text"
+        android:textColor="@color/white"
+        android:textSize="@dimen/switch_text_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/txt_lost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lost_list_text"
+        android:textColor="@color/white"
+        android:textSize="@dimen/default_text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/layout_default_margin"
+        android:text="STOP SERVICE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

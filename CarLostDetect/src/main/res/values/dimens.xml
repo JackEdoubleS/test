@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Scale -->
+    <dimen name="fill_width">0dp</dimen>
+    <dimen name="fill_height">0dp</dimen>
+
+    <!-- Margin -->
+    <dimen name="layout_default_margin">16dp</dimen>
+
+    <!-- TextSize -->
+    <dimen name="switch_text_size">34sp</dimen>
+    <dimen name="default_text_size">24sp</dimen>
+
+</resources>

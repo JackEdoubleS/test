@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">CarLostDetect</string>
+    <string name="client_id">SERVER</string>
+
+    <string name="lost_fun_switch_text">분실물 탐지 기능</string>
+    <string name="lost_list_text">두고 간 물건</string>
+
+    <string name="no_label">EMPTY</string>
+    <string name="person_label">person</string>
+
+    <string-array name="exclude_labels">
+        <item>bicycle</item>
+        <item>car</item>
+        <item>motorcycle</item>
+        <item>airplane</item>
+        <item>bus</item>
+        <item>train</item>
+        <item>truck</item>
+        <item>boat</item>
+        <item>traffic light</item>
+        <item>fire hydrant</item>
+        <item>stop sign</item>
+        <item>parking meter</item>
+        <item>bench</item>
+        <item>horse</item>
+        <item>sheep</item>
+        <item>cow</item>
+        <item>elephant</item>
+        <item>bear</item>
+        <item>zebra</item>
+        <item>giraffe</item>
+        <item>couch</item>
+        <item>bed</item>
+        <item>dining table</item>
+        <item>toilet</item>
+        <item>microwave</item>
+        <item>oven</item>
+        <item>toaster</item>
+        <item>sink</item>
+        <item>refrigerator</item>
+
+    </string-array>
+
+</resources>

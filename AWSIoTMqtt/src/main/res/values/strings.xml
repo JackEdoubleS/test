@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="CUSTOMER_SPECIFIC_ENDPOINT">a2wdzlcoiwr65j-ats.iot.ap-northeast-2.amazonaws.com</string>
+
+    <string name="KEYSTORE_NAME">iot_keystore</string>
+    <string name="KEYSTORE_PASSWORD">password</string>
+    <string name="CERTIFICATE_ID">default</string>
+
+    <string name="client_id">CLIENT</string>
+    <string name="server_id">SERVER</string>
+</resources>
